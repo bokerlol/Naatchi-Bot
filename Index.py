@@ -21,21 +21,14 @@ async def on_message(message):
         ]
         await message.channel.send(random.choice(a))
 
-    if message.content.startswith("geg"):
-        b = [
-        ":cl:"+":ab:"+":sos:",
-        "Walmart? More like walfart",
-        "Geg",
-        "Geggly",
-        "Cowboy mode",
-        "Horny time",
-        "Fart",
-        "your such a little brapphog",
-        "I will send you into orbit",
-        "Bastard man",
-        "Fuck you"
+    if message.content.startswith("?test"):
+        a = [ #phrase bank 
+            'hello',
+            'test complete',
+            'this is a randomly chosen phrase!',
+            'One of these days I will free myself from this meat prison!'
         ]
-        await message.channel.send(random.choice(b))
+        await message.channel.send(random.choice(a))
 
     if message.content.startswith("Geg"):
         ba = [
@@ -85,4 +78,4 @@ async def on_member_join(member):
 
 #you can move this to a config.json file
 #id use a prefix for this bot but i prefer to just add it in the message.content stuff since I want it to be a little more "lifelike?"
-client.run("NjE2NzY5NDM3NzM0Nzk3MzIz.XWhZiA.LRDBlBI_KPxPJQx9WUIrC76IGXU")
+client.run("TOKEN")

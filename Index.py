@@ -21,41 +21,6 @@ async def on_message(message):
         ]
         await message.channel.send(random.choice(a))
 
-    if message.content.startswith("?test"):
-        a = [ #phrase bank 
-            'hello',
-            'test complete',
-            'this is a randomly chosen phrase!',
-            'One of these days I will free myself from this meat prison!'
-        ]
-        await message.channel.send(random.choice(a))
-
-    if message.content.startswith("Geg"):
-        ba = [
-        ":cl:"+":ab:"+":sos:",
-        "Walmart? More like walfart",
-        "Geg",
-        "Geggly",
-        "Cowboy mode",
-        "Horny time",
-        "Fart",
-        "your such a little brapphog",
-        "I will send you into orbit",
-        "Bastard man",
-        "Fuck you"
-        ]
-        await message.channel.send(random.choice(ba))
-
-    if message.content.startswith("good bot"):
-        c = [
-            ":)",
-            "Yay!",
-            "Thanks!",
-            "Beep Boop!",
-            "*Happy Bot Sounds*"
-        ]
-        await message.channel.send(random.choice(c))
-
     if message.content.startswith("?ip"): #testing embeds idk in final build?
         embed = discord.Embed(Title='TEST', description='Build Server:', color=0x00ff00)
         embed.add_field(name='build.mineinabyss.ga', value='Survival Server', inline=False)
@@ -78,4 +43,4 @@ async def on_member_join(member):
 
 #you can move this to a config.json file
 #id use a prefix for this bot but i prefer to just add it in the message.content stuff since I want it to be a little more "lifelike?"
-client.run("TOKEN")
+client.run("NjE2NzY5NDM3NzM0Nzk3MzIz.XXVwmA.9TioKjYs1KGa8cq_MFfw1TTJtc8")

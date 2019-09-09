@@ -43,4 +43,4 @@ async def on_member_join(member):
 
 #you can move this to a config.json file
 #id use a prefix for this bot but i prefer to just add it in the message.content stuff since I want it to be a little more "lifelike?"
-client.run("NjE2NzY5NDM3NzM0Nzk3MzIz.XXVwmA.9TioKjYs1KGa8cq_MFfw1TTJtc8")
+client.run("token")
